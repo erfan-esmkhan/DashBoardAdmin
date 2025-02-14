@@ -1,20 +1,24 @@
-# DashboardAdmin
+# Dashboard Admin
 
-A simple and functional admin dashboard for managing and monitoring systems and data.
+A modern admin dashboard for managing systems and data efficiently.
 
 ## Features
 
-- **Modern and Responsive UI**: Built using modern web technologies.
 - **User Management**: Add, edit, and delete users.
-- **Reporting**: Generate various reports from system data.
-- **Role-Based Access Control**: Different access levels for users with different roles.
-- **Content Management Panel**: Easily manage website content.
+- **Interactive Dashboard**: Visualize data with charts and tables.
+- **Multi-Role Support**: Different access levels for admins, editors, and viewers.
+- **Responsive Design**: Works on all devices (desktop, tablet, mobile).
 
-## Installation
+## Technologies
 
-Follow these steps to set up the project locally:
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT
 
-1. **Clone the repository**:
+## Setup
+
+1. Clone the repo:
    ```bash
    git clone https://github.com/erfan-esmkhan/DashboardAdmin.git
    cd DashboardAdmin
@@ -23,35 +27,20 @@ Install dependencies:
 bash
 Copy
 npm install
+Add a .env file:
 
-Run the project:
+#env
+Run the app:
 
 bash
 Copy
 npm start
-Access the dashboard:
-
-Open your browser and go to http://localhost:3000.
-
-Usage
-Login: Use the default admin credentials (if applicable) or create a new user.
-
-Dashboard: Navigate through the dashboard to manage users, view reports, and update content.
-
-Customization: Modify the codebase to suit your specific needs.
-
-Contributing
-Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
-
-Fork the repository.
-
-Create a new branch for your feature or bugfix.
-
-Commit your changes.
-
-Submit a pull request.
-
-Please ensure your code follows the project's coding standards and includes appropriate documentation.
+Open http://localhost:3000 in your browser.
 
 License
-This project is licensed under the MIT License. See the LICENSE file for details.
+MIT License. See LICENSE for details.
+
+Contact
+Erfan Esmkhan
+
+GitHub: erfan-esmkhan
